@@ -29,7 +29,7 @@ const PostItem = ({
 			</Link>
 		</div>
 		<div>
-			<p className="my-1">{text}</p>
+			<div className="my-1" dangerouslySetInnerHTML={{ __html: text }} />
 			{images &&
 				images.map((image) => (
 					<div key={image.public_id}>

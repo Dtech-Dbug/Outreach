@@ -346,6 +346,9 @@ small,
 	margin: 1.2rem 0;
 }
 
+.ql-editor {
+	min-height: 10rem;
+}
 .form-text {
 	display: block;
 	text-align: left;
